@@ -1,0 +1,159 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --paraColor:#333;
+    --pColor:#4f4f4f;
+    --buttonColor: #fff
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+nav p{
+    font-family: Inconsolata;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    color: var(--paraColor);
+    text-transform: uppercase;
+    letter-spacing: -0.08em;
+    margin: 40px auto auto 40px;
+
+}
+.img{
+    width: 280px;
+    margin: 64px auto auto 44px;
+}
+img{
+    max-width: 250px;
+}
+.text-container h1{
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    color: var(--paraColor);
+    margin:auto 1px 30px 24px;
+}
+.inner-text p{
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    margin: auto auto 66px 15px;
+    color: var(--pColor);
+}
+button{
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: var(--buttonColor);
+    background-color: var(--paraColor);
+    padding: 24px 30px 23px;
+    margin: auto 135px 114px 24px;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1100px){
+    .container{
+        flex-direction: row;
+    }
+    .text-container{
+        margin: 200px 119px auto auto;
+    }
+    .img{
+        width: 540px;
+        margin: auto 119px auto 77px;
+    }
+    img{
+        max-width: 540px;
+    }
+    .text-container h1{
+        font-size: 64px;
+        margin: 0;
+    }
+    .inner-text p{
+        font-size: 24px;
+        width: 381px;
+        margin: 38px auto auto 0;
+        line-height: 35.54px;
+    }
+    button {
+        margin: 64px auto 308px 0;
+    }
+
+    footer {
+        margin-bottom: 24px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* }
+    .img{
+        width: 50%;
+    }
+    img{
+         */
+}
